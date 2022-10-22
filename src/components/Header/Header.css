@@ -1,0 +1,32 @@
+.header {
+    height: 80px;
+    background-color: #ffee32;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 105px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header a {
+    color: #5e5b52;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 32px;
+}
+
+.header a:hover {
+    color: #B33D40;
+}
+
+.btn-logout {
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #B33D40;
+    color: antiquewhite;
+}
